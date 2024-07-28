@@ -1,27 +1,21 @@
 import React, { useState, useEffect } from "react";
-import "./Event.css";
+import "./Mjesto.css";
 
-const Mjesto = ({event}) => {
-    const getBackgroundColor = (id) => {
-        return id % 2 === 0 ? '#C9D3FF' : '#EEF1FF';  
+const Mjesto = ({mjesto}) => {
+    const getTopValue = (place) => {
+        return `${7 * (place-4) + 30}vh`; 
     };
 
-    
-    const getTopValue = (id) => {
-        return `${7.5 * id + 11}vh`; 
-    };
-
-    const dynamicStyles = {
-        backgroundColor: getBackgroundColor(event.id),
-        top: getTopValue(event.id),
+    const ds = {
+        top: getTopValue(mjesto.place),
     };
 
     return (
         <>
-            <div className='event' style={dynamicStyles}>
-                <div className='maleni1'>{event.date}</div>
-                <div className='maleni2'>{event.name}</div>
-                <div className='maleni3'>{event.points}</div>
+            <div className='mjesto' style={ds}>
+                <div className='maleniM1'>{mjesto.place}.</div>
+                <div className='maleniM2'>{mjesto.name}</div>
+                <div className='maleniM3'>{mjesto.points}</div>
                 </div>
         </>
     );
