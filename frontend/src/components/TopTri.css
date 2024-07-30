@@ -1,0 +1,142 @@
+.jedan{
+    position: absolute;
+    left: 35.9vw;
+    top: 10vh;
+    height: 15.88vh;
+    width: 28.1vw;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: var(15.38vh);
+    margin: 0;
+    z-index: 3;
+}
+
+.pomocniJedan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35.9vw;
+    top: 23.88vh;
+    height: 4vh;
+    width: 28.1vw;
+}
+
+.dva{
+    position: absolute;
+    left: 3.9vw;
+    top: 14vh;
+    height: 15.88vh;
+    width: 28.1vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    z-index: 3;
+}
+
+.pomocniDva{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3.9vw;
+    top: 27.88vh;
+    height: 4vh;
+    width: 28.1vw;
+    z-index: 4;
+}
+
+.tri{
+    position: absolute;
+    right: 3.9vw;
+    top: 14vh;
+    height: 15.88vh;
+    width: 28.1vw;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    z-index: 3;
+}
+
+.pomocniTri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3.9vw;
+    top: 27.88vh;
+    height: 4vh;
+    width: 28.1vw;
+    z-index: 4;
+}
+
+.jedanK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 4vh;
+    top: 10px;
+    left: 50vw;
+    border-radius:50pc;
+    background-color: #423164;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 20px;
+    color: white
+}
+
+.dvaK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 4vh;
+    top: 10px;
+    left: 50vw;
+    border-radius:50pc;
+    background-color: #423164;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 20px;
+    color: white
+}
+
+.triK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 4vh;
+    top: 10px;
+    left: 50vw;
+    border-radius:50pc;
+    background-color: #423164;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 20px;
+    color: white
+}
+
+.ip{
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.brbod{
+    font-size: 3vh;
+    color: #7F61BA;
+    font-weight: 700;
+    margin-top: 1vh;
+}
